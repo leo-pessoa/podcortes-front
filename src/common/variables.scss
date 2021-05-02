@@ -5,3 +5,14 @@ $rosa-escuro: #77002c;
 $cinza-claro: #e9e9e9;
 $cinza-medio: #959595;
 $cinza-escuro: #383838;
+$sombra: 0 2px 4px 0 $cinza-claro;
+@mixin sombra() {
+  border-radius: 20px;
+  border: solid 2px $cinza-claro;
+  box-shadow: 0 2px 4px 0 $cinza-claro;
+}
+@mixin centro() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
