@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+.sidebar {
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  height: 100vh;
+  border-right: $cinza-claro 3px solid;
+  background-color: #ffffff;
+  transition: left 3000ms ease-out;
+
+  .item-text {
+    margin-left: 20px;
+  }
+  ul {
+    position: fixed;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style-type: none;
+    text-decoration: none;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 22px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .item-text {
+    display: none;
+  }
+}
+
+.item-image {
+  height: 40px;
+  font-size: 70px;
+  path {
+    height: 70px;
+  }
+}
+.side-item {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  justify-self: flex-start;
+}
