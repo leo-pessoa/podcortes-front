@@ -15,6 +15,12 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .App {
+    grid-template-columns: 50px auto;
+  }
+}
+
 .page {
   display: flex;
   justify-content: center;

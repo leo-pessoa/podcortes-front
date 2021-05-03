@@ -35,15 +35,21 @@
   .item-text {
     display: none;
   }
-}
-
-.item-image {
-  height: 40px;
-  font-size: 70px;
-  path {
-    height: 70px;
+  .item-image {
+    height: 40px;
   }
 }
+@media only screen and (max-width: 800px) {
+  .item-image {
+    height: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .item-image {
+    height: 40px;
+  }
+}
+
 .side-item {
   display: flex;
   align-items: center;
