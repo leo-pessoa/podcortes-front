@@ -24,5 +24,7 @@
 .page {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-left: $cinza-claro 3px solid;
 }

@@ -6,7 +6,8 @@ import Loader from '../../common/components/loader'
 export default function Following() {
   return (
     <div className='page'>
-      <Loader />
+      <Post />
+      <Post />
       <Post />
       <Post />
       <Post />
