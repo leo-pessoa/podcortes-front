@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './style.scss'
 import neymar from '../../assets/neymar.jpg'
-import Player from '../player'
+import PlayerContainer from '../playerContainer'
 
 export default function Post() {
   const [user, setUser] = useState('Ricardo')
@@ -14,14 +14,13 @@ export default function Post() {
             {user} <span className='said'>said</span>{' '}
           </p>
           <p className='post-content'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A expedita
-            rem officiis dicta cumque deleniti quisquam velit nisi doloribus!
+            Muito merda esse vídeo aqui. Sem condições de ver. Mas, de qualquer
+            forma, toma meu like AHHHHHHHHHHHHHHHHHHHHH
           </p>
         </div>
       </div>
       <div className='player-box'>
-        <div className='player'></div>
-        <Player />
+        <PlayerContainer />
       </div>
     </div>
   )

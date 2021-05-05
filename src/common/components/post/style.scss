@@ -5,10 +5,17 @@
   height: fit-content;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
   width: 60%;
+  .player-box {
+    display: flex;
+    width: 90%;
+  }
+  p {
+    font-size: 14px;
+  }
   @include sombra();
   @include centro();
   .post-user-image {
@@ -22,7 +29,6 @@
   }
   .post-header {
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
     width: 80%;
     .post-content {
@@ -32,17 +38,9 @@
     }
     .post-user {
       text-align: left;
+      font-size: 16px;
       margin-left: 25px;
       font-weight: 700;
     }
   }
-}
-.player-box {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
-  border: 2px $cinza-claro solid;
-  border-radius: 20px;
-  @include centro();
 }

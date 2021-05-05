@@ -17,6 +17,9 @@ export default function Following() {
       <Post />
       <Post />
       <Post />
+      <div className='page-loader'>
+        <Loader />
+      </div>
     </div>
   )
 }
