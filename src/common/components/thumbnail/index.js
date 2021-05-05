@@ -5,17 +5,17 @@ import thumb from '../../assets/thumbnail.jpg'
 import './style.scss'
 
 export default function Thumbnail() {
-  const [isPlayed, setisPlayed] = useState(false)
+  const [isPlayed, setisPlayed] = useState(true)
   return (
     <div className='thumbnail'>
       <img className='thumb-image' src={thumb} alt='' />
       {isPlayed ? (
         <div>
-          <img className='play-icon' src={pause} alt='' />
+          <img className='play-icon' src={play} alt='' />
         </div>
       ) : (
         <div>
-          <img className='play-icon' src={play} alt='' />
+          <img className='play-icon' src={pause} alt='' />
         </div>
       )}
     </div>

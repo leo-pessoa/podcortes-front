@@ -1,11 +1,20 @@
+@import '../../variables.scss';
+@media screen and (max-width: 800px) {
+  .thumb-image {
+    height: 50px;
+  }
+}
 .thumbnail {
   position: relative;
+  background-color: black;
+  border-radius: 10px;
   .play-icon {
     position: absolute;
-    top: 0;
+    top: 75px;
   }
   .thumb-image {
     height: 100px;
     border-radius: 10px;
+    opacity: 40%;
   }
 }

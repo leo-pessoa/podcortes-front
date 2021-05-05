@@ -9,11 +9,11 @@ export default function Post() {
     <div className='post'>
       <div className='post-header'>
         <img className='post-user-image' src={neymar} alt='' />
-        <div className='post-text'>
+        <div className='post-content'>
           <p className='post-user'>
             {user} <span className='said'>said</span>{' '}
           </p>
-          <p className='post-content'>
+          <p className='post-text'>
             Muito merda esse vídeo aqui. Sem condições de ver. Mas, de qualquer
             forma, toma meu like AHHHHHHHHHHHHHHHHHHHHH
           </p>

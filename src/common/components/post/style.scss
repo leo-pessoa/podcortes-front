@@ -1,4 +1,16 @@
 @import '../../variables.scss';
+
+@media only screen and (max-width: 800px) {
+  .post-user-image {
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .post {
+    width: 100%;
+  }
+}
+
 .post {
   display: flex;
   flex-direction: column;
@@ -30,11 +42,17 @@
   .post-header {
     display: flex;
     align-items: flex-start;
+    height: fit-content;
     width: 80%;
-    .post-content {
+    .post-text {
       margin-top: 8px;
       text-align: left;
       margin-left: 25px;
+      height: fit-content;
+    }
+    .post-content {
+      width: 80%;
+      word-wrap: break-word;
     }
     .post-user {
       text-align: left;
